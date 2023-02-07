@@ -1,0 +1,5 @@
+<launch>
+  <node name="comhardware"          pkg="robotbase"  type="comhardware" output="screen">
+    <param name="serial_port"       value="16"/>
+  </node>
+</launch>
